@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a dockerized version of the Research Dashboard for Longitudinal Survey and Assessment Data, a Shiny application for analyzing longitudinal survey data with database integration. The database schema showcases an organizational framework for storing complex research data using simulation. The application provides tools for exploring psychometric properties, visualizing missing data patterns, and analyzing participant responses across time.
+This repository contains a dockerized version of the Research Dashboard for Longitudinal Survey and Assessment Data, a Shiny application for analyzing longitudinal survey data with database integration. The database schema showcases an organizational framework for storing complex research data (simulated for demonstration purposes). The application provides tools for exploring psychometric properties, visualizing missing data patterns, and analyzing participant responses across time.
 
 ## Prerequisites
 
