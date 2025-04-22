@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3838:3838"
+    depends_on:
+      - database
+  database:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: avp36
+      MYSQL_USER: shiny_user
+      MYSQL_PASSWORD: shiny_password
+    volumes:
+      - ./database_init:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"

@@ -1,0 +1,20 @@
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Environment variables
+.Renviron
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Docker specific
+.docker
+
+# Other
+documentation/
+tests/
